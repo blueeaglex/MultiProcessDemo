@@ -1,0 +1,3 @@
+[submodule "CppXBase"]
+	path = CppXBase
+	url = https://github.com/blueeaglex/CppXBase.git
