@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+
 project(MultiProcessDemo)
 #message("CMAKE_MODULE_PATH:"${CMAKE_MODULE_PATH})
 message("CMAKE_MODULE_PATH=${CMAKE_CURRENT_SOURCE_DIR}")
@@ -11,7 +13,6 @@ else()
 endif()
 
 add_subdirectory("CppXBase")
-
 
 include_directories(${BASE_INCLUDE_DIRS})
 
